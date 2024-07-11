@@ -1,0 +1,290 @@
+body {
+  background-color: #0E1514;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.banner1 {
+  top:0;
+  left:0;
+  width: 100vh;
+  height: 100%;
+  position: fixed;
+}
+
+span {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.line1 {
+  width: 1.5px;
+}
+
+.title {
+  top: 130px;
+  left: 60px;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+  font-family: SF Pro Display;
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffffff;
+  position: relative;
+}
+
+.sub-details {
+  width: 400px;
+}
+
+.sub-details {
+  top: 160px;
+  left: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin: 0;
+  padding: 0;
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-weight: medium;
+  color: #f5f5f5;
+  position: relative;
+}
+
+.overview {
+  width: 500px;
+}
+
+
+.overview1 {
+  top: 190px;
+  left: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin: 0;
+  padding: 0;
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-weight: 350;
+  color: #CECECE;
+  letter-spacing: 1px;
+  line-height: 20px;
+  position: relative;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  top: 260px;
+  left: 60px;
+  position: relative;
+  width: 100%;
+  height: 50px;
+}
+
+.click {
+  width: 200px;
+  height: 45px;
+  background-color: #ffffff;
+  font-family: SF Pro Display;
+  font-size: 18px;
+  font-weight: 700;
+  color: #0E1514;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.click2 {
+  width: 200px;
+  height: 45px;
+  background-color: transparent;
+  font-family: SF Pro Display;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: #ffffff;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.click3 {
+  width: 45px;
+  height: 45px;
+  background-color: transparent;
+  border: 0;
+}
+
+@media screen and (min-width: 599px) {
+  div.mobile-banner1 {
+      display: none;
+  }
+
+  div.mobile-movie-details {
+      display: none;
+  }
+
+  div.mobile-buttons {
+      display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.banner1 {
+      display: none;
+  }
+
+  div.movie-details {
+      display: none;
+  }
+
+  div.buttons {
+      display: none;
+  }
+
+  body {
+      background-color: #0E1514;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+      overflow-y: hidden;
+
+  }
+
+  .mobile-banner1 {
+      position:absolute;
+      z-index:-1;
+      top:0;
+      left:0;
+      width:100%; 
+      height:100vh;
+      border: 0;
+      
+  }
+  
+  span {
+      padding-left: 12px;
+      padding-right: 12px;
+  }
+  
+  .line1 {
+      width: 1.5px;
+  }
+  
+  .title {
+      top: 100px;
+      left: 0px;
+  }
+  
+  .title {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      margin: 0;
+      padding-left: 10px;
+      font-family: SF Pro Display;
+      font-size: 45px;
+      font-weight: bold;
+      color: #ffffff;
+      position: relative;
+  }
+
+  .mobile-sub-details1 {
+      top: 130px;
+      left: 0px;
+      width: auto;
+  }
+  
+  .mobile-sub-details1 {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+      font-family: SF Pro Display;
+      font-size: 14px;
+      font-weight: medium;
+      color: #f5f5f5;
+      position: relative;
+      padding-left: 10px;
+  }
+
+  .mobile-overview1 {
+      width: auto;
+      top: 160px;
+      left: 0px;
+  }
+  
+  .mobile-overview1 {
+      margin: 0;
+      padding: 0;
+      font-family: SF Pro Display;
+      font-size: 14px;
+      font-weight: 350;
+      color: #CECECE;
+      letter-spacing: 1px;
+      line-height: 20px;
+      padding-left: 10px;
+      position: relative;
+  }
+  
+  .mobile-buttons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+      top: 280px;
+      left: 0px;
+      position: relative;
+      width: 100%;
+      height: 50px;
+  }
+  
+  .click {
+      width: 200px;
+      height: 45px;
+      background-color: #ffffff;
+      font-family: SF Pro Display;
+      font-size: 18px;
+      font-weight: 700;
+      color: #0E1514;
+      border: 0;
+      border-radius: 8px;
+      cursor: pointer;
+  }
+  
+  .click2 {
+      width: 200px;
+      height: 45px;
+      background-color: transparent;
+      font-family: SF Pro Display;
+      font-size: 18px;
+      font-weight: 500;
+      color: #ffffff;
+      border-style: solid;
+      border-width: 1.5px;
+      border-color: #ffffff;
+      border-radius: 8px;
+      cursor: pointer;
+  }
+  
+  .click3 {
+      width: 45px;
+      height: 45px;
+      background-color: transparent;
+      border: 0;
+  }
+  
+  
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="header">
+    <div class="header-top">
+      <div class="hamburger"><img class="image1" src="assets/images/hamburger.svg"></div>
+      <div class="logo"><img class="image2" src="assets/images/MVTIME Logo.svg"></div>
+    </div>
+    <div class="search-bar">
+      <input class="search" type="text" placeholder="Search">
+    </div>
+    <div class="search-mobile">
+      <img class="search-icon" src="/assets/images/search.svg">
+    </div>
+  </nav>
+  <nav class="header-left">
+    <div class="navbar-elements-left">
+      <ul id="nav-list">
+        <li class="movies" onclick="redirectTo('index.html')"><img class="default-icon" src="assets/images/film.svg"><img class="active-icon" src="assets/images/film black.svg" alt="">Movies</li>
+        <li class="tv-shows active" onclick="redirectTo('index4.html')"><img class="default-icon" src="assets/images/tv.svg"><img class="active-icon" src="assets/images/tv black.svg" alt="">TV shows</li>
+        <li class="genre" onclick="toggleDropdown(event)"><img class="default-icon" src="assets/images/grid.svg" alt="menu-icon" class="grid-icon"><img class="active-icon" src="assets/images/grid black.svg" alt="">Genre</li>
+        <li class="my-list" onclick="redirectTo('index7.html')"><img class="default-icon" src="assets/images/heart.svg"><img class="active-icon" src="assets/images/heart black.svg" alt="">My List</li>
+      </ul>
+    </div>
+    <div id="5678" class="genre-info">
+      <div class="genre-data">
+        <a href="#">Action</a>
+        <a href="#">Comedy</a>
+        <a href="#">Drama</a>
+        <a href="#">Horror</a>
+        <a href="#">Romance</a>
+        <a href="#">Action</a>
+        <a href="#">Comedy</a>
+        <a href="#">Drama</a>
+        <a href="#">Horror</a>
+        <a href="#">Romance</a>
+      </div>
+    </div>
+  </nav>
+  <div class="mobile">
+    <div class="mobile-navbar">
+      <ul>
+        <li><img class="icon" src="assets/images/film.svg"><span>Movies</span></li>
+        <li><img class="icon" src="assets/images/tv.svg"><span>TV shows</span></li>
+        <li><img class="icon" src="assets/images/grid.svg"><span>Genre</span></li>
+        <li><img class="icon" src="assets/images/heart.svg"><span>My List</span></li>
+      </ul>
+    </div>
+  </div>
+  <div id="9101" class="movie-cards">
+    <div class="image-container" data-url="index2.html">
+      <img class="movie-155" src="/assets/images/1.svg" alt="Dune Part 2">
+      <div class="content">
+        <div class="heart-icon"><img src="/assets/images/heart.svg"></div>
+        <h3>Dune: Part Two</h3>
+        <p class="year">2024</p>
+        <p class="rating">8.7 / 10</p>
+      </div>
+    </div>
+    <div class="image-container">
+      <img class="movie-1" src="/assets/images/2.svg">
+      <div class="content">
+        <div class="heart-icon"><img src="/assets/images/heart.svg"></div>
+        <h3>Dune: Part Two</h3>
+        <p class="year">2024</p>
+        <p class="rating">8.7 / 10</p>
+      </div>
+    </div>
+    <div class="image-container">
+      <img class="movie-1" src="/assets/images/3.svg">
+      <div class="content">
+        <div class="heart-icon"><img src="/assets/images/heart.svg"></div>
+        <h3>Dune: Part Two</h3>
+        <p class="year">2024</p>
+        <p class="rating">8.7 / 10</p>
+      </div>
+    </div>
+    <div class="image-container">
+      <img class="movie-1" src="assets/images/4.svg">
+      <div class="content">
+        <div class="heart-icon"><img src="/assets/images/heart.svg"></div>
+        <h3>Dune: Part Two</h3>
+        <p class="year">2024</p>
+        <p class="rating">8.7 / 10</p>
+      </div>
+    </div>
+    <div class="image-container">
+      <img class="movie-1" src="/assets/images/5.svg">
+      <div class="content">
+        <div class="heart-icon"><img src="/assets/images/heart.svg"></div>
+        <h3>Dune: Part Two</h3>
+        <p class="year">2024</p>
+        <p class="rating">8.7 / 10</p>
+      </div>
+    </div>
+    <div class="image-container">
+      <img class="movie-1" src="/assets/images/6.svg">
+      <div class="content">
+        <div class="heart-icon"><img src="/assets/images/heart.svg"></div>
+        <h3>Dune: Part Two</h3>
+        <p class="year">2024</p>
+        <p class="rating">8.7 / 10</p>
+      </div>
+    </div>
+    <div class="image-container">
+      <img class="movie-1" src="/assets/images/7.svg">
+    </div>
+    <div class="image-container">
+      <img class="movie-1" src="/assets/images/8.svg">
+    </div>
+    <div class="image-container">
+      <img class="movie-1" src="/assets/images/9.svg">
+    </div>
+    <div class="image-container">
+      <img class="movie-1" src="/assets/images/10.svg">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
